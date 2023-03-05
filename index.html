@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <nav class="navbar bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/operatore-agenzia-viaggi.jpg" alt="Logo" width="68" height="48" class="d-inline-block align-text-top">
+          </a>
+          <div class="container">
+              <a class="mx-3 text-white text-decoration-none fs-5" href="#week-offer-section">Offerta della settimana</a>
+              <a class="mx-3 text-white text-decoration-none fs-5" href="#welcome-summer-section">Welcome Summer</a>
+              <a class="mx-3 text-white text-decoration-none fs-5" href="#day-offer">Offerta del giorno</a>
+              <a class="mx-3 text-white text-decoration-none fs-5" href="#last-minute">Offerte last minute</a>
+              <a class="mx-3 text-white text-decoration-none fs-5" href="#testimonial">Feddback degli utenti</a>
+          </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid mt-3">
+        <div class="container">
+          <h1 class="display-4">Viaggi nel mondo</h1>
+          <p class="lead">Che vita sarebbe senza viaggi ?</p>
+        </div>
+    </div>
+    <p class="text-center my-4">
+      <a class="btn btn-primary fs-2" data-bs-toggle="collapse" href="#week-offer-section" role="button" aria-expanded="false" aria-controls="week-offer-section">
+        Offerta della settimana
+      </a>
+    </p>
+    <section id="week-offer-section" class="collapse px-3">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="./images/piemonte.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Piemonte</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/svizzera.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Svizzera</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/trentino.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Trentino</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/dolomiti.jfif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dolomiti</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="text-center my-4">
+      <a class="btn btn-primary fs-2" data-bs-toggle="collapse" href="#welcome-summer-section" role="button" aria-expanded="false" aria-controls="welcome-summer-section">
+        Welcome Summer
+      </a>
+    </p>
+    <section id="welcome-summer-section" class="collapse px-3">
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">
+        <div class="col">
+          <div class="card position-relative">
+            <img src="./images/corsica.jfif" class="card-img-top" alt="...">
+            <span class="position-absolute top-50 start-50 translate-middle badge rounded-pill bg-danger fs-5 d-none">
+              HOT
+            </span>
+            <span class="visually-hidden">unread messages</span>
+            <div class="card-body">
+              <h5 class="card-title">Corsica</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/sicilia.jfif" class="card-img-top" alt="...">
+            <span class="position-absolute top-50 start-50 translate-middle badge rounded-pill bg-danger fs-5 d-none">
+              HOT
+            </span>
+            <span class="visually-hidden">unread messages</span>
+            <div class="card-body">
+              <h5 class="card-title">Sicilia</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/grecia.jfif" class="card-img-top" alt="...">
+            <span class="position-absolute top-50 start-50 translate-middle badge rounded-pill bg-danger fs-5 d-none">
+              HOT
+            </span>
+            <span class="visually-hidden">unread messages</span>
+            <div class="card-body">
+              <h5 class="card-title">Grecia</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/ibiza.jfif" class="card-img-top" alt="...">
+            <span class="position-absolute top-50 start-50 translate-middle badge rounded-pill bg-danger fs-5 d-none">
+              HOT
+            </span>
+            <span class="visually-hidden">unread messages</span>
+            <div class="card-body">
+              <h5 class="card-title">Ibiza</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/indonesia.jfif" class="card-img-top" alt="...">
+            <span class="position-absolute top-50 start-50 translate-middle badge rounded-pill bg-danger fs-5 d-none">
+              HOT
+            </span>
+            <span class="visually-hidden">unread messages</span>
+            <div class="card-body">
+              <h5 class="card-title">Indonesia</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/puglia.jfif" class="card-img-top" alt="...">
+            <span class="position-absolute top-50 start-50 translate-middle badge rounded-pill bg-danger fs-5 d-none">
+              HOT
+            </span>
+            <span class="visually-hidden">unread messages</span>
+            <div class="card-body">
+              <h5 class="card-title">Puglia</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="text-center my-4">
+      <a class="btn btn-primary fs-2" data-bs-toggle="collapse" href="#day-offer" role="button" aria-expanded="false" aria-controls="day-offer">
+        Offerta del giorno
+      </a>
+    </p>
+    <section id="day-offer" class="collapse px-3">
+      <div class="container d-flex flex-row">
+        <div class="container" id="img-container">
+          <img src="./images/egitto.jpg" class="img-fluid" alt="...">
+        </div>
+        <div class="container" id="info-img">
+          <p>Egitto</p>
+          <p>20 - 27 marzo</p>
+          <p>£ 1200</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa perferendis dolorem perspiciatis nesciunt odio beatae alias laboriosam, quasi modi reprehenderit, similique magnam quisquam. Alias perferendis sapiente eveniet saepe natus necessitatibus!</p>
+        </div>
+      </div>
+    </section>
+    <p class="text-center my-4">
+      <a class="btn btn-primary fs-2" data-bs-toggle="collapse" href="#last-minute" role="button" aria-expanded="false" aria-controls="last-minute">
+        Offerte last minute
+      </a>
+    </p>
+    <section id="last-minute"  class="collapse px-3">
+      <div class="container d-flex flex-row justify-content-center">
+        <div class="card mx-3" style="width: 18rem;">
+          <img src="./images/londra.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card mx-3" style="width: 18rem;">
+          <img src="./images/parigi.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card mx-3" style="width: 18rem;">
+          <img src="./images/roma.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="text-center my-4">
+      <a class="btn btn-primary fs-2" data-bs-toggle="collapse" href="#testimonial" role="button" aria-expanded="false" aria-controls="testimonial">
+        Feedback degli utenti
+      </a>
+    </p>
+    <section id="testimonial"  class="collapse px-3">
+      <div class="container post-list">
+        <div class="container post d-flex flex-row">
+          <div class="post-img">
+            <img src="./images/u1.jpg" alt="">
+          </div>
+          <div class="post-info">
+            <p><strong>mario.rossi</strong>, 03/03/2023 18:30</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur repudiandae, maiores sint quod est magni sapiente illo tempora illum quaerat voluptas aliquid fugiat alias quam officiis possimus qui architecto molestias.</p>
+          </div>
+        </div>
+        <div class="container post d-flex flex-row">
+          <div class="post-img">
+            <img src="./images/u2.jpg" alt="">
+          </div>
+          <div class="post-info">
+            <p><strong>carlo.bianchi</strong>, 03/03/2023 17:10</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur modi quod dolores pariatur adipisci sed tempore quam ab delectus aliquid harum numquam ex inventore, earum, qui in, tenetur quis sequi?</p>
+          </div>
+        </div>
+        <div class="container post d-flex flex-row">
+          <div class="post-img">
+            <img src="./images/u3.jpg" alt="">
+          </div>
+          <div class="post-info">
+            <p><strong>roberto.verdi</strong>, 01/03/2023 10:30</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas vero sed quidem neque. Obcaecati blanditiis quam nostrum aliquid mollitia voluptatem tenetur nisi suscipit, minus impedit illo minima hic consectetur.</p>
+          </div>
+        </div>
+        <div class="container post d-flex flex-row">
+          <div class="post-img">
+            <img src="./images/u4.jpg" alt="">
+          </div>
+          <div class="post-info">
+            <p><strong>marco.gialli</strong>, 01/03/2023 08:30</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum laboriosam tenetur cumque beatae cupiditate facilis sapiente totam voluptate ducimus obcaecati culpa ex saepe corporis provident id, praesentium quam vitae laudantium?</p>
+          </div>
+        </div>
+        <div class="container post d-flex flex-row">
+          <div class="post-img">
+            <img src="./images/u5.jpg" alt="">
+          </div>
+          <div class="post-info">
+            <p><strong>valerio.blu</strong>, 28/02/2023 22:30</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam iure cum est sunt cumque eum. Nulla accusamus cupiditate repudiandae quo laboriosam ipsa. Magni atque sed voluptate, praesentium eaque odio consequatur.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="text-center fs-4 mb-3">
+      <p>Indirizzo:</p>
+      <p>Viale Vattene a pesca, 34</p>
+      <p>00100 Roma</p>
+      <button type="button" class="btn btn-info fs-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Contattaci</button>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Info di contatto</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Per qualsiasi informazione puoi scrivere al seguente indirizzo e-mail:</p>
+              <input type="email" value="viagginelmondo@gigino.com" disabled size="25">
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="./myScript.js"></script>
+  </body>
+</html>

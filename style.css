@@ -1,0 +1,23 @@
+section#day-offer #img-container {
+    width: 66%;
+}
+
+section#day-offer #info-img {
+    width: 33%;
+}
+
+.post {
+    width: 80%;
+    margin: 50px 0;
+    font-size: 15pt;
+}
+
+.post-img {
+    margin-right: 20px;
+}
+
+.post-img img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
